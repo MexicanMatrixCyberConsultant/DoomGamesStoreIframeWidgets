@@ -25,3 +25,15 @@ Tweter iframe:
         style="border: 0; width:130px; height:20px;"></iframe>
         
         
+---------------
+
+
+Sandbox:
+
+<iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+    src="https://platform.twitter.com/widgets/tweet_button.html"
+    style="border: 0; width:130px; height:20px;"></iframe>
+    
+    
+    
+    
