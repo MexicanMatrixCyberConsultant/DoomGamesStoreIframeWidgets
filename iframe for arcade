@@ -1,0 +1,19 @@
+//This iframe has the screen adjustable and seems to work fine. It does not have android remotes and it does not have access to newtwork in android chrome browwer.
+
+<iframe id="i" src="https://www.retrogames.cc/embed/40238-tekken-3.html"
+
+style="width:100%; height:100%; allowfullscreen="true"; frameborder="0" style="border:0";"
+webkitallowfullscreen="true" mozallowfullscreen="true"
+>
+
+</iframe>
+
+
+<script>window.onload = function() {
+        window.parent.postMessage(
+            document.body.scrollHeight
+            ,"*"
+        )
+    };
+</script>
+
